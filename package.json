@@ -1,0 +1,20 @@
+{
+  "name": "kobo-api-submitter",
+  "version": "1.0.0",
+  "description": "Minimal JavaScript helper for submitting data to a KoboToolbox form via the API.",
+  "type": "module",
+  "main": "src/kobo.js",
+  "scripts": {
+    "start": "node examples/submit.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "kobo",
+    "kobotoolbox",
+    "api"
+  ],
+  "license": "MIT"
+}

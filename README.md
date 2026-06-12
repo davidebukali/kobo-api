@@ -50,8 +50,17 @@ console.log(result);
 
 The object passed to `submitData` must use the field names from your deployed Kobo form.
 
+
+
+Initiate the call to kobo API
+
+```
+node --env-file=.env src/index.js
+```
+
 ## Test
 
 ```sh
 npm test
 ```
+
